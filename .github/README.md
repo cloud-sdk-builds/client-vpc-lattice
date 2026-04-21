@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-vpc-lattice`](https://www.npmjs.com/package/@aws-sdk/client-vpc-lattice/v/3.1033.0).
+[`@aws-sdk/client-vpc-lattice`](https://www.npmjs.com/package/@aws-sdk/client-vpc-lattice/v/3.1034.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1033.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1034.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-YqcSUXq0BpXiat0r5qXy0zfep5DPvYdUBL2bAlAGiG4Ux1NSjsWjkGpEAhDh2i2I
+sha384-Bq2cP6EXk3ckyASS6LCSTAVTGJHW4oi9X0SZu8wjE5yxP1GcT3qTK2MtLysRSfUs
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-vpc-lattice": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1033.0/index.min.mjs"
+            "@aws-sdk/client-vpc-lattice": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1034.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1033.0/index.min.mjs": "sha384-YqcSUXq0BpXiat0r5qXy0zfep5DPvYdUBL2bAlAGiG4Ux1NSjsWjkGpEAhDh2i2I"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1034.0/index.min.mjs": "sha384-Bq2cP6EXk3ckyASS6LCSTAVTGJHW4oi9X0SZu8wjE5yxP1GcT3qTK2MtLysRSfUs"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-vpc-lattice": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1033.0/index.min.mjs"
+                        "@aws-sdk/client-vpc-lattice": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1034.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1033.0/index.min.mjs": "sha384-YqcSUXq0BpXiat0r5qXy0zfep5DPvYdUBL2bAlAGiG4Ux1NSjsWjkGpEAhDh2i2I"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-vpc-lattice@3.1034.0/index.min.mjs": "sha384-Bq2cP6EXk3ckyASS6LCSTAVTGJHW4oi9X0SZu8wjE5yxP1GcT3qTK2MtLysRSfUs"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1033.0`)
+* Always pin to a specific version (`@3.1034.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-vpc-lattice/blob/refs/tags/3.1033.0/LICENSE
+https://github.com/cloud-sdk-builds/client-vpc-lattice/blob/refs/tags/3.1034.0/LICENSE
 ```
 
 ---
